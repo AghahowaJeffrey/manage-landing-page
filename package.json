@@ -1,0 +1,17 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "manage landing page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch scss/main.scss css/main.css",
+    "live": "live-server",
+    "start": "npm run sass & npm run live"
+  },
+  "author": "Aghahowa Jeffrey",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0"
+  }
+}
