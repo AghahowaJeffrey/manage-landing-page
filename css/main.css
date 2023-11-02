@@ -61,6 +61,8 @@ svg {
     scroll-behavior: auto !important;
   }
 }
-h1 {
-  background-color: clr-primary-400;
+@media (min-width: 50em) {
+  h1 {
+    font-size: 0.8125rem;
+  }
 }

@@ -1,0 +1,16 @@
+@use '../base/variables' as var;
+@use '../abstract/mixins' as mixin;
+
+
+@media (min-width: 50em) {
+    $fs-body: var.$fs-500;
+    $fs-primary-heading: var.$fs-900;
+    $fs-secondary-heading: var.$fs-800; 
+    $fs-nav: var.$fs-300;
+
+
+    // style goes here
+    h1 {
+        font-size: $fs-nav;
+    }
+} 
